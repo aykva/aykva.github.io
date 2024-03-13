@@ -9,7 +9,7 @@
     <header>
         <nav>
             <div class="logo">
-                <a href="#"><img src="logo.png" alt="Furry Little Peach"></a>
+                <a href="#"><img src="logo.png" alt="Kavya U."></a>
             </div>
             <div class="nav-links">
                 <ul>
