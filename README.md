@@ -21,13 +21,6 @@
         </nav>
     </header>
 
-    <section id="hero">
-        <div class="hero-content">
-            <h1>Kavya</h1>
-            <p>An online portfolio of personal works by Kavya U..</p>
-        </div>
-    </section>
-
     <section id="about">
         <div class="about-content">
             <h2>About Me</h2>
@@ -64,9 +57,8 @@
             <h2>Contact Me</h2>
             <p>DKDKJSDKM</p>
             <div class="contact-info">
-                <p>Email: aykvaa@gmail.com</p>
-                <p>Phone: +919566299315</p>
-            </div>
+                <p>Email: kavya@gmail.com</p>
+                   </div>
         </div>
     </footer>
 </body>
