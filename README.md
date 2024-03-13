@@ -1,69 +1,52 @@
-/* styles.css */
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Your Name</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-.container {
-    width: 90%;
-    margin: 0 auto;
-    max-width: 1200px;
-}
+    <section id="hero">
+        <div class="container">
+            <h2>Welcome to My Portfolio</h2>
+            <p>Explore my creative journey.</p>
+        </div>
+    </section>
 
-header {
-    background-color: #000;
-    color: #fff;
-    padding: 20px 0;
-}
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Your introduction goes here.</p>
+        </div>
+    </section>
 
-header h1 {
-    margin: 0;
-}
+    <section id="portfolio">
+        <div class="container">
+            <h2>Portfolio</h2>
+            <!-- Your portfolio items go here -->
+        </div>
+    </section>
 
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
-
-#hero {
-    background-image: url('hero-bg.jpg'); /* Replace with your image */
-    background-size: cover;
-    color: #fff;
-    text-align: center;
-    padding: 150px 0;
-}
-
-#hero h2 {
-    font-size: 36px;
-}
-
-#hero p {
-    font-size: 18px;
-}
-
-section {
-    padding: 50px 0;
-}
-
-section h2 {
-    text-align: center;
-}
-
-footer {
-    background-color: #000;
-    color: #fff;
-    text-align: center;
-    padding: 50px 0;
-}
+    <footer id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>Email: your.email@example.com</p>
+        </div>
+    </footer>
+</body>
+</html>
 
